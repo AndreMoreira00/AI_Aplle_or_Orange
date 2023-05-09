@@ -7,11 +7,10 @@
 title: Arvore de decisão da IA
 ---
 flowchart
-    A[Maçã] --> B(Não)
-    A --> F[Sim]
-    B --> C{Dados}
-    C --> D[SIm]
-    C --> E[Não]
+    A[Fruta]
+    A --> C{Peso e Textura}
+    C --> D[Maçã]
+    C --> E[Laranja]
 ```
 
 </div>
